@@ -122,7 +122,7 @@
     // Inset right buttons
     UIBarButtonItem *shareButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Share"] style:UIBarButtonItemStylePlain target:self action:@selector(share)];
     UIBarButtonItem *dismissButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Dismiss"] style:UIBarButtonItemStylePlain target:self action:@selector(dismiss)];
-    [self.navigationItem setRightBarButtonItems:[NSArray arrayWithObjects:dismissButton, shareButton, nil]];
+    [self.navigationItem setRightBarButtonItems:[NSArray arrayWithObjects:dismissButton, nil]];
     
     // Add a webview
     _webView = [[UIWebView alloc] initWithFrame:self.view.frame];
